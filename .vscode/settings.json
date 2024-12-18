@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*wire.*go$",
+        "isAsync": true,
+        "cmd": "cd ${fileDirname} && wire"
+      }
+    ]
+  }
+}
