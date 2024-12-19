@@ -11,6 +11,5 @@ import (
 
 func InitializeBar() *service.Bar {
 	wire.Build(service.ProviderSet)
-	
 	return &service.Bar{}
 }
